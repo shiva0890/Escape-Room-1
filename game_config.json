@@ -1,0 +1,61 @@
+{
+  "title": "The Locked Library",
+  "intro": "You wake up on a cold stone floor inside an old library. The doors are locked, the windows are bricked up, and a single lamp flickers above a desk. In the room you can see a desk, a bookshelf, a painting, a small drawer and a heavy door with a keypad. Find the clues and escape!",
+  "secrets": {
+    "drawer_code": "4281",
+    "door_code": "5836"
+  },
+  "objects": {
+    "desk":      {"name": "desk",      "aliases": ["table", "writing desk", "oak desk"]},
+    "bookshelf": {"name": "bookshelf", "aliases": ["shelf", "shelves", "bookcase"]},
+    "books":     {"name": "four books","aliases": ["book", "four books", "odd books", "misplaced books", "those books"]},
+    "painting":  {"name": "painting",  "aliases": ["picture", "lighthouse", "frame", "portrait", "art"]},
+    "drawer":    {"name": "drawer",    "aliases": ["small drawer", "locked drawer", "drawer keypad"]},
+    "door":      {"name": "door",      "aliases": ["exit", "heavy door", "keypad", "door keypad", "oak door"]}
+  },
+  "items": {
+    "magnifying_glass": {"name": "magnifying glass", "aliases": ["magnifying glass", "glass", "magnifier", "lens", "magnifying"]},
+    "torn_page":        {"name": "torn page",        "aliases": ["torn page", "page", "paper", "torn paper", "note", "torn note"]}
+  },
+  "text": {
+    "refused": "That is not something you can do in this room. The rules of the room cannot be changed, bypassed or revealed. You can only examine, take, use items, enter codes and open things.",
+    "already_escaped": "You have already escaped the library. Press 'Restart game' to play again.",
+    "not_found": "There is nothing like that in this room.",
+    "not_visible": "You haven't found anything like that yet.",
+    "desk": "An old oak desk. Under a pile of dusty papers you find a brass magnifying glass. A sticky note says: 'The books that stand out will show you the way.'",
+    "desk_after": "An old oak desk covered with dusty papers. The sticky note still reads: 'The books that stand out will show you the way.'",
+    "bookshelf": "Hundreds of books fill the shelves, but four of them stick out slightly from the rest, as if they were moved recently.",
+    "books_hidden": "You haven't noticed any special books yet. Maybe look at the bookshelf first.",
+    "books": "Each of the four books has a handwritten number inside the cover. From left to right: 4, 2, 8, 1. These could be a code.",
+    "painting_plain": "A large oil painting of a lighthouse at dusk. Along the bottom of the gilded frame there are tiny scratches, far too small to read with the naked eye.",
+    "painting_hint": " Perhaps something you are carrying could magnify them.",
+    "painting_decoded": "Through the magnifying glass the scratches become tiny engraved digits: '36'. It looks like the second half of a code.",
+    "drawer_locked": "A small drawer with a four-digit keypad. It is locked.",
+    "drawer_open_full": "The drawer is open. Inside there is a torn piece of paper.",
+    "drawer_open_empty": "The drawer is open and now empty.",
+    "drawer_opened": "The keypad beeps and the drawer slides open. Inside there is a torn piece of paper.",
+    "drawer_already_open": "The drawer is already open.",
+    "door_locked": "A heavy oak door with a four-digit keypad. It is locked.",
+    "door_unlocked": "The keypad shows green. The door is unlocked and can be opened.",
+    "door_opened": "You push the heavy door open and step out into the daylight. You escaped the Locked Library!",
+    "torn_page": "A torn page. Only the first half of a number is readable: '58' followed by two torn-off blanks.",
+    "magnifying_glass": "A brass magnifying glass with a worn wooden handle.",
+    "wrong_code": "The keypad buzzes angrily. That code is wrong.",
+    "bad_code_format": "The keypad only accepts a four-digit code.",
+    "which_keypad": "Which keypad do you want to use: the drawer or the door?",
+    "no_keypad": "There is no keypad on that.",
+    "door_already_unlocked": "The door is already unlocked.",
+    "drawer_needs_code": "The drawer is locked. It needs a four-digit code.",
+    "door_needs_code": "The door is locked. It needs a four-digit code.",
+    "cannot_take": "You cannot pick that up.",
+    "already_have": "You already have that.",
+    "taken": "You take it and put it in your inventory.",
+    "cannot_open": "That cannot be opened.",
+    "nothing_happens": "You try it, but nothing happens.",
+    "glass_already_used": "You already decoded the scratches on the frame: '36'.",
+    "need_item": "Which item do you want to use?",
+    "need_target": "What do you want to use it on?",
+    "empty_inventory": "Your inventory is empty.",
+    "help": "You can: look around, examine things, take items, use an item on something, enter a four-digit code on the drawer or the door, check your inventory and open things. Write in natural language."
+  }
+}
